@@ -56,7 +56,7 @@ def tracker():
                     )
                     last_hashes[name] = current_hash
 
-            time.sleep(300)
+            time.sleep(60)
 
         except Exception as e:
             print(e)
