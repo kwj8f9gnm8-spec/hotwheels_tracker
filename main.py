@@ -5,10 +5,7 @@ BOT_TOKEN = "8728455127:AAGH3v79KQQGIurSHkVzgDr9szr88PzD-W4"
 CHAT_ID = "5097274608"
 STORES = {
     "FirstCry": "https://www.firstcry.com/Hot%20Wheels/0/0/113?q=as_hot+whee&asid=48299",
-    "Blinkit": "https://blinkit.com/s/?q=hot%20wheels",
     "Instamart": "https://www.swiggy.com/stores/instamart/search?custom_back=true&query=Hot+Wheels",
-    "Zepto": "https://www.zepto.com/search?query=Hot+wheels",
-    "BigBasket": "https://www.bigbasket.com/ps/?q=hotwheels&nc=as"
 }
 HEADERS = {
     "User-Agent": "Mozilla/5.0"
