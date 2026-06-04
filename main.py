@@ -12,6 +12,7 @@ CHAT_ID = "5097274608"
 
 STORES = {
     "FirstCry": "https://www.firstcry.com/Hot%20Wheels/0/0/113?q=as_hot+whee&asid=48299"
+    "https://www.firstcry.com/hot-wheels/hot-wheels-ferrari-free-wheel-model-with-smooth-rolling-wheels-diecast-toy-cars-pack-of-5-colours-and-designs-may-vary/23033009/product-detail"
 }
 
 HEADERS = {
