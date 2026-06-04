@@ -12,7 +12,8 @@ CHAT_ID = "5097274608"
 
 STORES = {
     "FirstCry": "https://www.firstcry.com/hot-wheels/hot-wheels-ferrari-free-wheel-model-with-smooth-rolling-wheels-diecast-toy-cars-pack-of-5-colours-and-designs-may-vary/23033009/product-detail"
- }
+}
+
 HEADERS = {
     "User-Agent": "Mozilla/5.0"
 }
