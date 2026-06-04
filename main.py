@@ -5,7 +5,7 @@ import os
 from threading import Thread
 from flask import Flask
 
-app = Flask(**name**)
+app = Flask(__name__)
 
 BOT_TOKEN = "8728455127:AAGH3v79KQQGIurSHkVzgDr9szr88PzD-W4"
 CHAT_ID = "5097274608"
@@ -80,7 +80,7 @@ while True:
 def home():
 return "Hot Wheels Tracker Running"
 
-if **name** == "**main**":
+if __name__ == "__main__":
 Thread(target=tracker, daemon=True).start()
 
 ```
