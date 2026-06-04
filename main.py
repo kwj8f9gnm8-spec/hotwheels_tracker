@@ -5,7 +5,7 @@ import os
 from threading import Thread
 from flask import Flask
 
-app = Flask(__name__)
+app = Flask(**name**)
 
 BOT_TOKEN = "8728455127:AAGH3v79KQQGIurSHkVzgDr9szr88PzD-W4"
 CHAT_ID = "5097274608"
@@ -43,10 +43,9 @@ return None
 
 def tracker():
 print("Tracker Started")
-
-```
 send_message("🚗 Hot Wheels Tracker Started")
 
+```
 for name, url in STORES.items():
     last_hashes[name] = get_hash(url)
 
@@ -62,7 +61,7 @@ while True:
 
             if current_hash != last_hashes[name]:
                 send_message(
-                    f"🚨 Hot Wheels update detected on {name}\n{url}"
+                    f"🚨 Change detected on {name}\n{url}"
                 )
 
                 print(f"Change detected on {name}")
