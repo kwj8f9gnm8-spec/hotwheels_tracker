@@ -21,17 +21,17 @@ HEADERS = {
 last_hashes = {}
 
 def send_message(text):
-try:
-requests.post(
-f"https://api.telegram.org/bot8728455127:AAGH3v79KQQGIurSHkVzgDr9szr88PzD-W4/sendMessage",
-data={
-"chat_id": CHAT_ID,
-"text": text
-},
-timeout=30
-)
-except Exception as e:
-print("Telegram Error:", e)
+    try:
+        r = requests.post(
+            f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage",
+            data={
+                "chat_id": CHAT_ID,
+                "text": text
+            }
+        )
+        print(r.text)
+    except Exception as e:
+        print("Telegram Error:", e)
 
 def get_hash(url):
 try:
