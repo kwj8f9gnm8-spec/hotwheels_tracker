@@ -12,7 +12,6 @@ CHAT_ID = "5097274608"
 
 STORES = {
     "FirstCry": "https://www.firstcry.com/Hot%20Wheels/0/0/113?q=as_hot+whee&asid=48299",
-    "Instamart": "https://www.swiggy.com/stores/instamart/search?custom_back=true&query=Hot+Wheels",
 }
 
 HEADERS = {
