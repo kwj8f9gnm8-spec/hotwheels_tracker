@@ -1,7 +1,7 @@
 import requests
 import time
 import hashlib
-BOT_TOKEN = "YOUR_BOT_TOKEN"
+BOT_TOKEN = "8728455127:AAGH3v79KQQGIurSHkVzgDr9szr88PzD-W4"
 CHAT_ID = "5097274608"
 STORES = {
     "FirstCry": "https://www.firstcry.com/Hot%20Wheels/0/0/113?q=as_hot+whee&asid=48299",
@@ -16,7 +16,7 @@ HEADERS = {
 last_hashes = {}
 def send_message(text):
     requests.post(
-        f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage",
+        f"https://api.telegram.org/bot8728455127:AAGH3v79KQQGIurSHkVzgDr9szr88PzD-W4/sendMessage",
         data={
             "chat_id": CHAT_ID,
             "text": text
